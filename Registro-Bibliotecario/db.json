@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "image": "https://img.freepik.com/vector-premium/libro-azul-dibujos-animados-bestseller-tapa-dura_53500-1529.jpg?w=2000",
+      "name": "Book 1",
+      "editorial": "Editorial 1",
+      "gender": "Genre 1",
+      "author": "Authoraaa"
+    },
+    {
+      "id": 2,
+      "image": "https://img.freepik.com/vector-premium/libro-azul-dibujos-animados-bestseller-tapa-dura_53500-1529.jpg?w=2000",
+      "name": "Book 2",
+      "editorial": "Editorial 2",
+      "gender": "Genre 2",
+      "author": "Author 2"
+    },
+    {
+      "id": 3,
+      "image": "https://img.freepik.com/vector-premium/libro-azul-dibujos-animados-bestseller-tapa-dura_53500-1529.jpg?w=2000",
+      "name": "ee",
+      "editorial": "fff",
+      "gender": "ddd",
+      "author": "eee"
+    },
+    {
+      "id": 4,
+      "image": "https://img.freepik.com/vector-premium/libro-azul-dibujos-animados-bestseller-tapa-dura_53500-1529.jpg?w=2000",
+      "name": "aaa",
+      "editorial": "ssd",
+      "gender": "ddd",
+      "author": "eee"
+    }
+  ]
+}

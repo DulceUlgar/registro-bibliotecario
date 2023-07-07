@@ -1,0 +1,31 @@
+<h2>Lista de libros</h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Imagen</th>
+    <th>Nombre</th>
+    <th>Editorial</th>
+    <th>Género</th>
+    <th>Autor</th>
+    <th>Acciones</th>
+  </tr>
+  <button (click)="createBook()">Crear libro</button>
+  <tr *ngFor="let book of books">
+    <td>{{ book.id }}</td>
+    <td><img [src]="book.image" alt="Portada" height="50"></td>
+    <td>{{ book.name }}</td>
+    <td>{{ book.editorial }}</td>
+    <td>{{ book.gender }}</td>
+    <td>{{ book.author }}</td>
+    <td>
+      <button (click)="editBook(book)">Editar</button>
+      <button (click)="deleteBook(book.id)">Eliminar</button>
+    </td>
+  </tr>
+</table>
+<app-book-form
+  *ngIf="showEditForm || showCreateForm"
+  [book]="selectedBook"
+  (save)="saveBook($event)"
+  (cancel)="cancelEdit()">
+</app-book-form>
